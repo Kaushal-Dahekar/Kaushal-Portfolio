@@ -1,0 +1,135 @@
+/*media query for bigger screens*/
+@media screen and (min-width: 1200px) {
+  /* adjust font size of heading */
+  #heading h1 {
+    font-size: 3.5em;
+    letter-spacing: 0.7rem;
+  }
+  
+  #resume {
+      font-size: 2.5rem;
+  }
+
+  /* adjust font size of text rotator */
+  .text-rotator .text {
+    font-size: 3em;
+  }
+
+  /* adjust size of social icons */
+  .social a img {
+    width: 5vh;
+    height: 5vw;
+    margin: 2.5rem;
+  }
+  /*adjusting footer*/
+  .footline {
+      font-size: 2rem;
+  }
+}
+
+/*basic styles*/
+/*.mean {
+  color: black;
+}*/
+.text-rotator {
+    text-align: center;
+}
+.text-rotator .text {
+  display: none;
+}
+
+.text-rotator .text.active {
+  display: block;
+}
+
+/* Common styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: monospace, Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 10vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+/*name*/
+#heading {
+  color: deeppink; /*For changing the heading name*/
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+#resume {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#resume a {
+  text-decoration: none;
+  color: grey;
+  text-align: center;
+}
+/*social icons*/
+.social {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ /* margin-bottom: 1rem;*/
+}
+
+.social a {
+  margin: 1rem;
+}
+
+.social img {
+  height: 25px;
+}
+/*Google font image*/
+.Kaushal-K {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.Kaushal-K img {
+  max-width: 100%;
+  height: 40vh;
+  margin-top: 0.5rem;
+}
+
+/* Footer */
+.footline {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0.2rem;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+footer p{
+    font-family: monospace,arial,serif;
+    font-weight: 800;
+}
+/*
+footer a {
+    text-decoration: none;
+    color: blue;
+}*/
+
